@@ -16,4 +16,16 @@ Aplicativo que permite fazer upload de vídeos e, por meio de IA, criar automati
 - Utilizando Radix UI
 - Utilizando "shadcn-ui", utilizar "pnpm dlx shadcn-ui@latest add ${slider}" para criar um novo componente do shadcn-ui
 
-
+## 2) Node Back-end
+- Instalar dependencia com "pnpm i"
+- Rodando o projeto "pnpm run dev"
+- ORM Prisma
+- Necessário ter extensão "Prisma" instalada no VCCode
+- No VSCode - "Ctrl + Shift + p" =><br/>
+	abrir settings (json) =><br/>
+	adicionar o propriedade do "prisma" abaixo, dentro do objeto principal<br/>
+	(o mesmo objeto onde esta a escolha do tema do VSCode)<br/>
+	"[prisma]": { "editor.defaultFormatter": "Prisma.prisma", "editor.formatOnSave": true },
+- Banco SQLite
+- Para criar as tabelas no banco, rodar a migrate "pnpm prisma migrate dev"
+- Para visualizar o Prisma Studio "pnpm prisma studio"
